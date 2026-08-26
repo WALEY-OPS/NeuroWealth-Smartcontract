@@ -20,8 +20,6 @@ dist/
 build/
 target/
 
-.env
-.env.local
 .env.devnet
 .env.testnet
 .env.mainnet
@@ -47,7 +45,6 @@ scripts/testnet-contracts.env
 scripts/mainnet-contracts.env
 
 # Editor / IDE files
-.vscode/settings.json
 .idea/
 *.swp
 *.swo
@@ -78,3 +75,7 @@ yarn-error.log*
 # Temporary files
 *.tmp
 *.bak
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
